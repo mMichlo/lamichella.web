@@ -1,0 +1,225 @@
+/* Estilo General */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#introduccion {
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    background-color: #fbfbfb; /* Si el fondo es oscuro, el texto necesita ser claro */
+    padding: 4rem 0;
+}
+
+#introduccion p {
+    color: #f0f0f0; /* Un tono aún más claro si el texto en blanco es demasiado fuerte */
+}
+
+#introduccion h2 {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f8f9fa;
+}
+
+p {
+    color: #dcdcdc;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000;
+    border-bottom: 1px solid #444;
+}
+
+.navbar-brand {
+    color: #f8f9fa;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #e0e0e0;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+/* Botones de Navegación Discretos */
+.navigation-btn {
+    background-color: #1a1919;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Botones Siguiente y Anterior */
+.nav-prev-next {
+    background-color: #444;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    margin: 2rem auto;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hero Carousel */
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    color: #e0e0e0;
+}
+
+.carousel-caption .btn {
+    background-color: #ffffff;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #dcdcdc;
+}
+
+/* Sección Introducción */
+#introduccion {
+    background-color: #1a1a1a;
+    padding: 4rem 0;
+    
+}
+
+#introduccion h2 {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+#articulo-destacado p {
+    color: #333333; /* Cambiar a un color oscuro para mejor contraste */
+}
+
+/* Secciones Destacadas */
+#destacados {
+    padding: 4rem 0;
+}
+
+.card {
+    background-color: #2c2c2c;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    color: #b0b0b0;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+}
+
+#solar img {
+    max-width: none; /* Permite que el ancho no esté limitado */
+    width: 90%;     /* Haz que sea más grande que su contenedor */
+    height: 600px;   /* Define una altura fija para alargarla */
+    border-radius: 10px;
+}
+
+
+.texto-centrado {
+    max-width: 1000px; /* Aumenta el ancho máximo */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+    text-align: justify; /* Justifica el texto */
+    line-height: 1.8; /* Ajusta el interlineado */
+    font-size: 18px; /* Tamaño de fuente */
+    color: #333333; /* Color oscuro suave */
+    font-family: 'Georgia', serif; /* Fuente elegante */
+    padding: 20px; /* Espaciado interno */
+}
+
+#espacial img{
+    max-width: none; /* Permite que el ancho no esté limitado */
+    width: 100%;     /* Haz que sea más grande que su contenedor */
+    height: 600px;   /* Define una altura fija para alargarla */
+    border-radius: 10px;
+
+}
+
+
+
+
+.btn-primary:hover {
+    background-color: #dcdcdc;
+}
+
+/* También Podría Gustarte Section */
+#tambien-gustarte {
+    background-color: #1a1a1a;
+    padding: 4rem 0;
+}
+
+#tambien-gustarte h2 {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #e0e0e0;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #dcdcdc;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
